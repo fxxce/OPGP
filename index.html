@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Public Grievance Portal</title>
+    <link rel="shortcut icon" type="image/png" href="../cms/img/favicon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/half-slider.css" rel="stylesheet">
+</head>
+
+<style>
+    body{
+        overflow-x: hidden;
+        display: inline;
+    }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="border-bottom: rgb(175, 45, 28) 3px solid;">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Public Grievance Portal</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" style="text-align: left; float: right;">
+                    <li>
+                        <a href="http://localhost/cms/users/">User Login</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/cms/users/registration.php">User Registration</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/cms/admin/">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="myCarousel" class="carousel slide" style="border-bottom: black 3px solid;">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+           
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://localhost/cms/img/img2.png');"></div>
+                <div class="carousel-caption">      
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://localhost/cms/img/img1.png');"></div>
+                <div class="carousel-caption">                
+               </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://localhost/cms/img/img3.png');"></div>
+                <div class="carousel-caption">                
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="margin-top: 25px; color: rgb(0, 0, 0);">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next" style="margin-top: 25px; color: rgb(0, 0, 0);">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <div class="container">
+
+        <div class="row" style="height: 800px;">
+            <div class="col-lg-12">
+                <h1 style="text-align: center; padding-bottom: 2px; font-size: 200%;">Public Grievance Portal</h1>
+                <p style="text-align: justify;">The Online Public Grievance Portal is a web application, this application is developed mainly for the utilization by the people for submitting their grievances to the local authorities for the redressal of the problem online. The current grievance system is dealing on a manual basis. People need to go to the concerned departments in-person to register their complaints. It takes a lot of time and needs an enormous amount of paperwork to be taken care of the complaint details. An enormous expenditure and much of the time is spent on the prevailing system. Tracking and retrieving details is tough as there is tons of paperwork. It's slow and inefficient.</p>
+                <p style="font-size: 16px; text-align: left;">The purpose of this project is </p>
+                <ul style="text-align: justify;">
+                    <li>Submission of grievance through online mode.</li> 
+                    <li>Get a faster response.</li>  
+                    <li>To make the process more transparent.</li> 
+                    <li>Redressal of problem within less time.</li>
+                </ul>    
+            </div>
+        </div>
+
+
+        <footer style="position: fixed; margin-bottom: 0%; bottom: 0; left: 0; background-color: black; padding: 10px; color: grey; width: 100%; margin-top: 10px; text-align: center; border-top: rgb(175, 45, 28) 3px solid;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="padding-top: 2px;">Copyright &copy; <a>kmbhasan</a> | Public Grievance Portal 2020</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $('.carousel').carousel({
+        interval: 3000 
+    })
+    </script>
+
+</body>
+
+</html>
