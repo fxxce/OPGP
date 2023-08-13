@@ -4,7 +4,7 @@ include('include/config.php');
 if (strlen($_SESSION['alogin']) == 0) {
 	header('location:index.php');
 } else {
-	date_default_timezone_set('Asia/Kolkata');
+	date_default_timezone_set('Europe/Lisbon');
 	$currentTime = date('d-m-Y h:i:s A', time());
 
 	if (isset($_POST['submit'])) {
