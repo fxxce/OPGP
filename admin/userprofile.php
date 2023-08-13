@@ -94,7 +94,7 @@ if (strlen($_SESSION['alogin']) == 0) {
             </tr>
 
             <footer>
-              <p> Copyright &copy; kmbhasan | Public Grievance Portal 2020</p>
+              <p> Copyright &copy; fxxce | Public Grievance Portal 2020</p>
             </footer>
 
           <?php }
